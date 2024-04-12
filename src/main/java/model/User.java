@@ -7,7 +7,7 @@ import java.util.List;
 
 public class User {
     private List<Integer> inputNumbers = new ArrayList<>();
-    private Input input;
+    private final Input input;
 
     public User(){
         this.input = new Input();

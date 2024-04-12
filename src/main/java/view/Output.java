@@ -6,7 +6,7 @@ public class Output {
     }
 
     public void enterNumbers(){
-        System.out.print("숫자를 입력해 주세요 : ");
+
     }
 
     public void printResult(int strike, int ball){
@@ -25,6 +25,10 @@ public class Output {
         }
 
         System.out.println(ball + "볼" + strike + "스트라이");
+    }
+
+    public void printThreeStrike(){
+        System.out.println("3개의 숫자를 모두 맞히셨습니다! 게임 종료");
     }
 
     public void printEndGame(){
